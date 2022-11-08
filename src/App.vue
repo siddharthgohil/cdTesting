@@ -1,19 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <RandomNumber msg="Welcome to Unit Testing" />
 </template>
-
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
-
+import RandomNumber from "./components/RandomNumber.vue";
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    RandomNumber,
   },
 };
 </script>
-
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
