@@ -1,5 +1,6 @@
 <template>
   <RandomNumber msg="Welcome to Unit Testing" />
+  <h2>This change is auto deployed on a push</h2>
 </template>
 <script>
 import RandomNumber from "./components/RandomNumber.vue";
